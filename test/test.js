@@ -2,7 +2,7 @@
 var ObjectID = require('mongodb').ObjectID
 var assert = require('assert')
 
-var unique = require('./')
+var unique = require('..')
 
 it('should create a unique list', function () {
   var oids = []
